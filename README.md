@@ -11,6 +11,11 @@ The following algorith will be implemented and explained:
 Possible evaluation metrics and how to deal with the Cold Start problem will be also discussed.
 # Installation
 
+## Requirements
+* Python 3.5+
+* IPython and Jupyter Notebook
+* Numpy and Pandas Libraries
+
 ## Download 
 Enter the folder you like, open a terminal here and clone my GitHub repo:
 
@@ -31,3 +36,11 @@ My suggestion is to run them in the correct order:
 7. Implementing FunkSVD
 8. How Are We Doing
 9. Cold Start Problem
+
+## Use Python Module
+The code previously explained and developed in Jupyter has been included in a Python script. Object-oriented programming makes the code readable and easily reusable. You can find the *recommender.py* script in the *module* folder. 
+
+Run a sample application in your terminal:
+```
+python recommender.py
+```
